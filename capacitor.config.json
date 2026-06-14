@@ -1,0 +1,31 @@
+{
+  "appId": "com.kalibot.ai.personal",
+  "appName": "KaliBot",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "backgroundColor": "#0A0E1A",
+  "android": {
+    "buildOptions": {
+      "keystorePath": "kalibot.keystore",
+      "keystoreAlias": "kalibot"
+    }
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2500,
+      "backgroundColor": "#0A0E1A",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0A0E1A"
+    },
+    "SpeechRecognition": {
+      "language": "es-ES"
+    }
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
